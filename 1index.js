@@ -1,3 +1,3 @@
-git document.getElementById(myHeader)
+document.getElementById(myHeader)
 var myHeader = "Hello World"
 console.log(myHeader)
