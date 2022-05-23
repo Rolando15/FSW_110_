@@ -1,0 +1,53 @@
+<!DOCTYPE>
+<html>
+    <head> 
+        <link rel="stylesheet" href="index.css">
+    </head>
+        <body>
+
+            
+            <form class="styling container" id="myForm">
+                
+                Enter first name:  <input class="fname" type="text" name="fname" id="fname"> 
+                <br>
+                Enter last name:<input class="lname" type="text" name="lname" id="lname">
+                <br>
+                Enter age:<input class="integer" type="integer" name="Age" id="Age">
+                <br>
+                Have you shopped with us before? (check box if answer is yes)<input class="box" type="checkbox">
+                <br>
+                
+                
+                <label  for="recommend"> How likely are you to recommend this product to a friend? </label>
+                <input class="label" list="recommends" name="recommend" id="recommend">
+                <datalist id="recommends">
+                    <option value="Not likely">
+                    <option value="Unsure">
+                    <option value="Definitely">
+                </datalist>
+                
+                <br>
+                Are you, (check the following if applicable):
+                Vegetarian<input type="checkbox">
+                Vegan<input type="checkbox">
+                Gluten free<input type="checkbox">
+                
+                
+
+
+
+
+
+
+                <input type="submit" value="Submit">
+
+           </form>
+           
+           <script src="index.js">
+              
+           </script>
+
+        </body>
+
+    
+</html>
