@@ -1,0 +1,49 @@
+.item1{
+    background-color: pink;
+    height:100px;
+    
+}
+
+.item2{
+    background-color:aqua;
+    height:100px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .item1{background-color: #58c957;
+        height:100px;
+        width:100px;
+    }
+    .item2{background-color: #d65d70;
+        height:100px;
+        width:100px;
+    }
+}
+
+
+@media only screen and (max-width: 300px) {
+
+    .item1{background-color: #82d7ef;
+        height:100px;
+        width:100px;
+    }
+
+    .item2{background-color: #b44e7f;
+        height:100px;
+        width:100px;
+    }
+}
+
+@media only screen and (min-width:701px) {
+
+    .item1{background-color: #a0db4d;
+        height:100px;
+        width:700px;
+    }
+
+    .item2{background-color: #b44e7f;
+        height:100px;
+        width:700px;
+    }
+}
