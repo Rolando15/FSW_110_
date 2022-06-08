@@ -1,14 +1,14 @@
-document.getElementById("myForm").onsubmit = function() {myFunction()};
+document.getElementById("submit").addEventListener("click", function(e){
+  e.preventDefault();
+  
+  var first = document.getElementById("fname").value;
+    var last = document.getElementById("lname").value;
+    let fav = document.querySelector("input[type='radio'][name=fav]:checked").value;
+    document.getElementById("result").textContent =  "Your name is: " +  first +' ' + last + " favorite color: " + fav;
 
-function myFunction() {
-  ("The form was submitted");
-}
+
+    alert("The form was submitted");
+})
 
 
-document.getElementById("submit").addEventListener("click", function(){
-    var first = document.getElementById("fname").value;
-     var last = document.getElementById("lname").value;
-    var result = document.getElementById("result").innerHTML.textContent = "Your name is: " +  (last, first);
-    console.log(result);
 
-}) 

@@ -1,29 +1,23 @@
-var newHeader = document.createElement('h1');
-var node = document.createTextNode("This is h content.");
-
-var myHeader = document.getElementById('header')
-myHeader.appendChild(newHeader)
 
 
+const head = document.createElement("h1");
+const node1 = document.createTextNode("This is an H1");
+head.appendChild(node1);
+document.body.appendChild(head);
 
 
+const para = document.createElement("P");
+const node = document.createTextNode("This is a paragraph.");
+para.appendChild(node);
+document.body.appendChild(para);
 
+// const ref = document.createElement("a")
+// const node2 = document.createTextNode ("https://www.w3schools.com/jsref/prop_anchor_href.asp");
+// ref.appendChild(node2);
+// document.body.appendChild(ref)
 
-
-var Paragraph = document.createElement('p')
-Paragraph.textContent = 'This is the Paragraph Content'
-document.body.appendChild(Paragraph)
-
-// var newRef = document.createElement('a')
-// newRef.textContent = "https://i.stack.imgur.com/sOTlm.jpg"
-// document.a.appendChild(newRef)
-
-var newList = document.createElement('li')
-newList.textContent = 'List'
-var myList = document.getElementById('my-list')
-myList.appendChild(newList)
-
-var newFooter = document.createElement('f')
-newFooter.textContent = 'Footer Content Here'
-var myFooter = document.getElementById('footer')
-myFooter.appendChild(newFooter)
+const node4 = document.createElement("li");
+const textnode = document.createTextNode("Water");
+node.appendChild(textnode);
+document.createElement("myList").appendChild(node4);
+document.body.appendChild("myList");
